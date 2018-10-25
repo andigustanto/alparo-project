@@ -1,7 +1,7 @@
     <!-- Slider area -->
     <section class="slider_area row m0">
         <div class="slider_inner">
-            <div data-thumb="images/slider-1.jpg" data-src="images/slider-1.jpg">
+            <div data-thumb="slider-1.jpg" data-src="<?php echo base_url(); ?>assets/images/slider-1.jpg">
                 <div class="camera_caption">
                    <div class="container">
                         <h5 class=" wow fadeInUp animated">Welcome to our</h5>
@@ -11,7 +11,7 @@
                    </div>
                 </div>
             </div>
-            <div data-thumb="images/slider-2.jpg" data-src="images/slider-2.jpg">
+            <div data-thumb="slider-2.jpg" data-src="<?php echo base_url(); ?>assets/images/slider-2.jpg">
                 <div class="camera_caption">
                    <div class="container">
                         <h5 class=" wow fadeInUp animated">Welcome to our</h5>
@@ -70,7 +70,7 @@
                     <a href="#" class="button_all">Contact Now</a>
                 </div>
                 <div class="col-md-5 col-sm-6 about_client">
-                    <img src="images/about_client.jpg" alt="">
+                    <img src="<?php echo base_url(); ?>assets/images/about_client.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -87,7 +87,7 @@
             <div class="row construction_iner">
                 <div class="col-md-4 col-sm-6 construction">
                    <div class="cns-img">
-                        <img src="images/cns-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/cns-1.jpg" alt="">
                    </div>
                    <div class="cns-content">
                         <i class="fa fa-home" aria-hidden="true"></i>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 construction">
                    <div class="cns-img">
-                        <img src="images/cns-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/cns-2.jpg" alt="">
                    </div>
                    <div class="cns-content">
                         <i class="fa fa-keyboard-o" aria-hidden="true"></i>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-md-4 col-sm-6 construction">
                    <div class="cns-img">
-                        <img src="images/cns-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/cns-3.jpg" alt="">
                    </div>
                    <div class="cns-content">
                         <i class="fa fa-gavel" aria-hidden="true"></i>
@@ -129,7 +129,7 @@
             </div>
             <div class="feature_row row">
                 <div class="col-md-6 feature_img">
-                    <img src="images/feature-man.jpg" alt="">
+                    <img src="<?php echo base_url(); ?>assets/images/feature-man.jpg" alt="">
                 </div>
                 <div class="col-md-6 feature_content">
                     <div class="subtittle">
@@ -197,7 +197,7 @@
                    <div class="grid-sizer"></div>
                     <div class="single_facilities col-xs-4 p0 painting photography adversting">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-1.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-1.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -209,7 +209,7 @@
                     </div>
                     <div class="single_facilities col-xs-4 p0 webdesign">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-2.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-2.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -221,7 +221,7 @@
                     </div>
                     <div class="single_facilities col-xs-4 painting p0 photography branding">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-3.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-3.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -233,7 +233,7 @@
                     </div>
                     <div class="single_facilities col-xs-4 p0 adversting webdesign adversting">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-4.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-4.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -245,7 +245,7 @@
                     </div>
                     <div class="single_facilities col-xs-4 p0 painting adversting branding">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-5.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-5.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -257,7 +257,7 @@
                     </div>
                     <div class="single_facilities col-xs-4 p0 webdesign photography magazine adversting">
                        <div class="single_facilities_inner">
-                          	<img src="images/gallery/sv-6.jpg" alt="">
+                          	<img src="<?php echo base_url(); ?>assets/images/gallery/sv-6.jpg" alt="">
                             <div class="gallery_hover">
                                 <h4>Construction</h4>
                                 <ul>
@@ -283,7 +283,7 @@
             <div class="row team_row">
                 <div class="col-md-3 col-sm-6 wow fadeInUp">
                    <div class="team_membar">
-                        <img src="images/team/tm-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-1.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -297,7 +297,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
                    <div class="team_membar">
-                        <img src="images/team/tm-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-2.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -311,7 +311,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                    <div class="team_membar">
-                        <img src="images/team/tm-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-3.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -325,7 +325,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                    <div class="team_membar">
-                        <img src="images/team/tm-4.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-4.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -387,7 +387,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-2.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-2.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -401,7 +401,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-3.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-3.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -415,7 +415,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-1.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-1.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -429,7 +429,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-2.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-2.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -443,7 +443,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-1.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-1.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -457,7 +457,7 @@
                     <div class="media">
                         <div class="media-left">
                             <a href="#">
-                                <img class="media-object" src="images/testimonial-2.jpg" alt="">
+                                <img class="media-object" src="<?php echo base_url(); ?>assets/images/testimonial-2.jpg" alt="">
                             </a>
                         </div>
                         <div class="media-body">
@@ -480,56 +480,56 @@
         </div>
         <div class="featured_gallery">
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-1.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-1.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-2.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-2.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-3.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-3.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-4.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-4.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-5.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-5.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-6.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-6.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-7.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-7.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-8.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-8.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
@@ -548,19 +548,19 @@
             </div>
             <div class="row latest_blog">
                 <div class="col-md-4 col-sm-6 blog_content">
-                    <img src="images/blog/lb-1.jpg" alt="">
+                    <img src="<?php echo base_url(); ?>assets/images/blog/lb-1.jpg" alt="">
                     <a href="#" class="blog_heading">Our Latest Project</a>
                     <h4><small>by  </small><a href="#">Emran Khan</a><span>/</span><small>ON </small> October 15, 2016</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna. Sed sollicitudin at nisi sed accumsan... <a href="#">Read More</a></p>
                 </div>
                 <div class="col-md-4 col-sm-6 blog_content">
-                    <img src="images/blog/lb-2.jpg" alt="">
+                    <img src="<?php echo base_url(); ?>assets/images/blog/lb-2.jpg" alt="">
                     <a href="#" class="blog_heading">Our Latest Project</a>
                     <h4><small>by  </small><a href="#">Prodip Ghosh</a><span>/</span><small>ON </small> October 15, 2016</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna. Sed sollicitudin at nisi sed accumsan... <a href="#">Read More</a></p>
                 </div>
                 <div class="col-md-4 col-sm-6 blog_content">
-                    <img src="images/blog/lb-3.jpg" alt="">
+                    <img src="<?php echo base_url(); ?>assets/images/blog/lb-3.jpg" alt="">
                     <a href="#" class="blog_heading">Our Latest Project</a>
                     <h4><small>by  </small><a href="#">Prodip Ghosh</a><span>/</span><small>ON </small> October 15, 2016</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis iaculis velit in tristique. Curabitur ac urna urna. Sed sollicitudin at nisi sed accumsan... <a href="#">Read More</a></p>
@@ -578,11 +578,11 @@
                 <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
             </div>
             <div class="partners">
-                <div class="item"><img src="images/client_logo/client_logo-1.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-2.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-3.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-4.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-5.png" alt=""></div>
+                <div class="item"><img src="<?php echo base_url(); ?>assets/images/client_logo/client_logo-1.png" alt=""></div>
+                <div class="item"><img src="<?php echo base_url(); ?>assets/images/client_logo/client_logo-2.png" alt=""></div>
+                <div class="item"><img src="<?php echo base_url(); ?>assets/images/client_logo/client_logo-3.png" alt=""></div>
+                <div class="item"><img src="<?php echo base_url(); ?>assets/images/client_logo/client_logo-4.png" alt=""></div>
+                <div class="item"><img src="<?php echo base_url(); ?>assets/images/client_logo/client_logo-5.png" alt=""></div>
             </div>
         </div>
         <div class="book_now_aera">

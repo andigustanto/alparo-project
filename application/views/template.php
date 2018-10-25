@@ -8,20 +8,20 @@
     <title>Topbuilder Construction Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon.png" type="image/x-icon" />
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Animate CSS -->
-    <link href="vendors/animate/animate.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>assets/vendors/animate/animate.css" rel="stylesheet">
     <!-- Icon CSS-->
-	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/font-awesome/css/font-awesome.min.css">
     <!-- Camera Slider -->
-    <link rel="stylesheet" href="vendors/camera-slider/camera.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS-->
-	<link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/vendors/owl_carousel/owl.carousel.css" media="all">
 
     <!--Theme Styles CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css" media="all" />
 
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -174,25 +174,25 @@
     <!-- End Footer Area -->
 
     <!-- jQuery JS -->
-    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery-1.12.0.min.js"></script>
     <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <!-- Animate JS -->
-    <script src="vendors/animate/wow.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/animate/wow.min.js"></script>
     <!-- Camera Slider -->
-    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
-    <script src="vendors/camera-slider/camera.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/camera-slider/jquery.easing.1.3.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/camera-slider/camera.min.js"></script>
     <!-- Isotope JS -->
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/isotope/isotope.pkgd.min.js"></script>
     <!-- Progress JS -->
-    <script src="vendors/Counter-Up/jquery.counterup.min.js"></script>
-    <script src="vendors/Counter-Up/waypoints.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/Counter-Up/jquery.counterup.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/Counter-Up/waypoints.min.js"></script>
     <!-- Owlcarousel JS -->
-    <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/owl_carousel/owl.carousel.min.js"></script>
     <!-- Stellar JS -->
-    <script src="vendors/stellar/jquery.stellar.js"></script>
+    <script src="<?php echo base_url(); ?>assets/vendors/stellar/jquery.stellar.js"></script>
     <!-- Theme JS -->
-    <script src="js/theme.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/theme.js"></script>
 </body>
 </html>
