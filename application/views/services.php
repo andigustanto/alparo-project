@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="single_facilities col-sm-5 painting webdesign">
-                        <img src="images/feature-man-4.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/feature-man-4.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -50,56 +50,56 @@
         </div>
         <div class="featured_gallery">
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-1.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-1.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-2.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-2.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-3.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-3.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-4.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-4.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-5.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-5.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-6.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-6.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-7.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-7.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
                 </div>
             </div>
             <div class="col-md-3 col-sm-4 col-xs-6 gallery_iner p0">
-                <img src="images/gallery/gl-8.jpg" alt="">
+                <img src="<?php echo base_url(); ?>assets/images/gallery/gl-8.jpg" alt="">
                 <div class="gallery_hover">
                     <h4>Bolt Apartments</h4>
                     <a href="#">VIEW PROJECT</a>
@@ -119,7 +119,7 @@
             <div class="row team_row">
                 <div class="col-md-3 col-sm-6 wow fadeInUp">
                    <div class="team_membar">
-                        <img src="images/team/tm-1.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-1.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
                    <div class="team_membar">
-                        <img src="images/team/tm-2.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-2.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -147,7 +147,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                    <div class="team_membar">
-                        <img src="images/team/tm-3.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-3.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                    <div class="team_membar">
-                        <img src="images/team/tm-4.jpg" alt="">
+                        <img src="<?php echo base_url(); ?>assets/images/team/tm-4.jpg" alt="">
                         <div class="team_content">
                             <ul>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -177,27 +177,3 @@
         </div>
     </section>
     <!-- End Our Team Area -->
-
-    <!-- jQuery JS -->
-    <script src="js/jquery-1.12.0.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Animate JS -->
-    <script src="vendors/animate/wow.min.js"></script>
-    <!-- Camera Slider -->
-    <script src="vendors/camera-slider/jquery.easing.1.3.js"></script>
-    <script src="vendors/camera-slider/camera.min.js"></script>
-    <!-- Isotope JS -->
-    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-    <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-    <!-- Progress JS -->
-    <script src="vendors/Counter-Up/jquery.counterup.min.js"></script>
-    <script src="vendors/Counter-Up/waypoints.min.js"></script>
-    <!-- Owlcarousel JS -->
-    <script src="vendors/owl_carousel/owl.carousel.min.js"></script>
-    <!-- Stellar JS -->
-    <script src="vendors/stellar/jquery.stellar.js"></script>
-    <!-- Theme JS -->
-    <script src="js/theme.js"></script>
-</body>
-</html>
