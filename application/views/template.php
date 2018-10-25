@@ -75,7 +75,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt=""></a>
+                    <a class="navbar-brand" href="<?php echo base_url(); ?>Home"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt=""></a>
                 </div>
             </div>
 
